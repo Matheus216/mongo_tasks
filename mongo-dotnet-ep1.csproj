@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>mongo_dotnet_ep1</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.aspnetcore.mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.aspnetcore.mvc.newtonsoftjson" Version="3.1.7" />
+    <PackageReference Include="Mongodb.Driver" Version="2.11.0" />
+  </ItemGroup>
+
+</Project>

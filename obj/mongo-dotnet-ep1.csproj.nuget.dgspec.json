@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Repositories\\Code\\mongo-dotnet-ep1\\mongo-dotnet-ep1.csproj": {}
+  },
+  "projects": {
+    "D:\\Repositories\\Code\\mongo-dotnet-ep1\\mongo-dotnet-ep1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repositories\\Code\\mongo-dotnet-ep1\\mongo-dotnet-ep1.csproj",
+        "projectName": "mongo-dotnet-ep1",
+        "projectPath": "D:\\Repositories\\Code\\mongo-dotnet-ep1\\mongo-dotnet-ep1.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "D:\\Repositories\\Code\\mongo-dotnet-ep1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.selida.com.br/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.aspnetcore.mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.aspnetcore.mvc.newtonsoftjson": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Mongodb.Driver": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
